@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Interior View</title> 
+<script>
+    function bijay() {
+        var bb=confirm("Dou you want to continue?");
+        if (bb==true) {
+            document.write("!!! Your Have Successfully booked !!!");
+            
+        }
+    }
+  </script>
+
+</head>
+<body>
+        <!-- Home section part -->  
+
+    <navbar id="navbar">
+        <div id="logo">
+            <a href="home.html"><img src="./img/logo.jpeg" alt="MyMeal.com"></a>
+        </div>
+        <ul>
+            <li class="item"><a href="home.html">Home</a></li>
+            <li class="item"><a href="menu.html">Menu</a></li>
+            <li class="item"><a href="#afterorder">Our Interior looks</a></li>
+            <li class="item"><a href="offers.html">Our Offers</a></li>
+        </ul>
+    </navbar>
+   
+
+  <!-- offers n navigation section-->
+  <h2><marquee style=" color:wheat; font-size:38px;" behavior="scroll" height="50px" direction="right" scrollamount="20">Our Interior Designs</marquee></h2>
+    <section style="color:white;" class="s-i">
+
+               <!-- img1--> 
+              <div class="i">
+                <span id="slide-1"></span>
+                <span id="slide-2"></span>
+                <span id="slide-3"></span>
+                <h2 style="color:red ;">-BornToBurn</h2> 
+                <div class="image-container1"> 
+                 <a href="./img/f1.jpeg"><img src="./img/f1.jpeg" class="slide1" width="500" height="300" alt="MyMeal.com"/></a> 
+                 <a href="./img/f2.jpeg"><img src="./img/f2.jpeg" class="slide1" width="500" height="300" alt="MyMeal.com"/></a> 
+                 <a href="./img/f3.jpeg"><img src="./img/f3.jpeg" class="slide1" width="500" height="300" alt="MyMeal.com"/></a>  
+                </div> 
+
+                <div class="buttons">
+                  <a href="#slide-1"></a>
+                  <a href="#slide-2"></a>
+                  <a href="#slide-3"></a>
+                </div>
+              </div>
+
+             <!-- img 2-->
+             <div class="i">
+                <span id="slide-4"></span>
+                <span id="slide-5"></span>
+                <span id="slide-6"></span>
+                <h2 style="color:red ;">-The KiNgs</h2> 
+                <div class="image-container2">
+                  <a href="./img/f4.jpeg"><img src="./img/f4.jpeg" class="slide2" width="500" height="300" alt="MyMeal.com"/></a> 
+                  <a href="./img/f5.jpeg"><img src="./img/f5.jpeg" class="slide2" width="500" height="300" alt="MyMeal.com"/></a> 
+                  <a href="./img/f6.jpeg"><img src="./img/f6.jpeg" class="slide2" width="500" height="300" alt="MyMeal.com"/></a> 
+                </div>
+                 <div class="buttons">
+                   <a href="#slide-4"></a>
+                   <a href="#slide-5"></a>
+                   <a href="#slide-6"></a>
+                 </div>
+              </div>      
+
+            <!--img 3-->
+            <div class="i">
+                <span id="slide-7"></span>
+                <span id="slide-8"></span>
+                <span id="slide-9"></span>
+                <h2 style="color:red ;">-HeLLshell</h2> 
+                <div class="image-container3">
+                  <a href="./img/f7.jpeg"><img src="./img/f7.jpeg" class="slide3" width="500" height="300" alt="MyMeal.com"/></a> 
+                  <a href="./img/f8.jpeg"><img src="./img/f8.jpeg" class="slide3" width="500" height="300" alt="MyMeal.com"/></a> 
+                  <a href="./img/f9.jpeg"><img src="./img/f9.jpeg" class="slide3" width="500" height="300" alt="MyMeal.com"/></a> 
+                </div>
+                <div class="buttons">
+                  <a href="#slide-7"></a>
+                  <a href="#slide-8"></a>
+                  <a href="#slide-9"></a>
+                 </div>  
+            </div>
+ 
+            <!-- Down of slide description-->
+            <h1 style="color:wheat ;"><i>~Our Designs makes you to visit our place</i></h1>
+            <h1 style="color:wheat;"><i>~Please do slide and once visit us to get service</i></h1>
+            <h1 style="color:wheat;"><i>!!!Thank You!!! wish you a happy day a head!</i></h1>
+    </section>
+
+
+
+
+<!-- Feedback -->
+
+
+
+<!--    Book Now section -->
+
+<section id="afterorder">
+  <h1 style="text-align: center;">Book Now</h1>
+  <h2 class="details"><b>!!! PLEASE ENTER THE DATAILS !!!</b></h2>
+      <div id="contact-box">
+          <form>
+
+              <div class="form-group">
+
+                  <label for="name">Restaurant Name:</label>
+                  <select>
+                      <option value="bijay" selected>BornToBurn</option>
+                      <option value="bijay" selected>The kiNgs</option>
+                      <option value="bijay" selected>HeLLshell</option>
+                      <option value="bijay" selected>Others</option>
+                  </select>
+              </div>
+      
+              <div class="form">
+                <label for="email">Name: </label>
+                  <input type="email" name="name" id="name">
+              </div>
+
+              <div class="form">
+                  <label for="email">Email: </label>
+                  <input type="email" name="name" id="email">
+              </div>
+
+              <div class="form">
+                  <label for="phone">Phone: </label>
+                  <input type="phone" name="name" id="phone">
+              </div>
+             
+             <div class="form-group">
+              <input type="radio" name="gender" value="MALE"> Male
+              <input type="radio" name="gender" value="FEMALE"> Female 
+             </div>
+
+          </form>
+       <div id="submit">
+          <abbr title="Have a Sweet day!"><button class="btn" onclick="bijay()">Book Now</button></abbr> 
+       </div>
+              
+</section>
+
+<!--  last  part -->
+<footer>
+    <div id="center">
+        Copyright &copy; www.BNJ.com. All rights reserved!
+    </div>
+</footer>
+
+</body>
+</html>

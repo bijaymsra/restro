@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Order Now</title>
+<script>
+    function bijay() {
+        var bb=confirm("Dou you want to continue?");
+        if (bb==true) {
+            document.write("Your Order has been saved");
+            
+        }
+    }
+  </script>
+</head>
+<body>
+    
+     <!-- Home section part -->  
+
+    <navbar id="navbar">
+        <div id="logo">
+            <a href="home.html"><img src="./img/logo.jpeg" alt="MyMeal.com"></a>
+        </div>
+        <ul>
+            <li class="item"><a href="home.html">Home</a></li>
+            <li class="item"><a href="menu.html">Menu</a></li>
+            <li class="item"><a href="design.html">Our Interior looks</a></li>
+            <li class="item"><a href="offers.html">Our Offers</a></li>
+        </ul>
+    </navbar>
+
+    <!--  Order section -->
+
+    <section id="afterorder">
+        <h2><marquee style=" color:wheat; font-size:38px;" behavior="scroll" height="50px" direction="right" scrollamount="20">Thank You For Visiting Here</marquee></h2>
+        <h1 style="text-align: center;">Order Now</h1>
+        <h2 class="details"><b><u>!!! PLEASE ENTER THE DATAILS !!!</u></b></h2>
+            <div id="contact-box">
+                <form>
+
+                    <div class="form-group">
+
+                        <label for="name">FOOD TYPES:</label>
+                        <select>
+                            <option value="bijay" selected>NON-VEGETARIAN</option>
+                            <option value="bijay" selected>VEGETARIAN</option>
+                        </select>
+                        <input type="text" name="name" id="name" placeholder="~ your order details">
+                    </div>
+
+                    <div class="form">
+                        <label for="email">Name: </label>
+                        <input type="email" name="name" id="email">
+                    </div>
+
+                    <div class="form">
+                        <label for="email">Email: </label>
+                        <input type="email" name="name" id="email">
+                    </div>
+
+                    <div class="form">
+                        <label for="phone">Phone: </label>
+                        <input type="phone" name="name" id="phone">
+                    </div>
+
+                    <div class="form">
+                        <label for="phone">Location: </label>
+                        <input type="phone" name="name" id="phone">
+                    </div>
+                   
+                   <div class="form-group">
+                    <input type="radio" name="gender" value="MALE"> Male
+                    <input type="radio" name="gender" value="FEMALE"> Female 
+                   </div>
+
+                   <div class="form-group">
+                   <form>
+                    Any Tips : <br /> 
+                   <textarea rows="5" cols="50" name="description"></textarea> 
+                   </form> 
+                   </div>
+
+                </form>
+             <div id="submit">
+                <abbr title="Have a Sweet day!"><button class="btn" onclick="bijay()">Order Now</button></abbr> 
+             </div>
+                    
+    </section>
+
+    <!-- Last page-->
+    <footer>
+        <div id="center">
+            Copyright &copy; www.BNJ.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+</html>
